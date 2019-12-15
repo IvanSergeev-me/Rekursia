@@ -1,4 +1,5 @@
   
+  
 import java.util.Scanner;
 
 public class Recursion {
@@ -16,7 +17,8 @@ public class Recursion {
 		long a = sc.nextLong();
 		System.out.println("Введите n: ");
 		long n = sc.nextLong();
-		System.out.println(exponentN(a,n));
+		System.out.println("Число "+a+" в степени "+n+" = " + exponentN(a,n));
+		System.out.println("Нод чисел " +a+ " и " +n+ " = "+gcd(a,n));
 		sc.close();
 	}
 
